@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    background-image: url("photo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.calculator {
+    border: 1px solid #ccc;
+height: 50vh;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#display {
+    /* width: 100%; */
+    font-size: 24px;
+    padding: 5px;
+    text-align: right;
+    margin-bottom: 10px;
+    background-color: aqua;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #eee;
+    background-image: C:\Users\Birendra\Downloads\photo.jpg;
+    /* body {
+        background-image: url("C:\Users\Birendra\Downloads\photo.jpg");
+        background-size: cover; 
+        background-repeat: no-repeat; 
+    } */
+}
+
+button.operator {
+    background-color: #f2b13c;
+}
+
+button.calculate {
+    background-color: #4caf50;
+}
+.clear{
+    background-color: black;
+    color: white;
+}
+button.num{
+    background-color: rgb(16, 217, 100);
+    color: white;
+}
